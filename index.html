@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/8714bdb431.js" crossorigin="anonymous"></script>
+        <title>MP1</title>
+    </head>
+    <body>
+        <nav id="navi">
+            <div id="navigation_bar">
+                <ul>
+                    <li class="intro current"><a href="#intro">INTRO</a> </li>
+                    <li class="about"><a href="#about">ABOUT ME</a> </li>
+                    <li class="edu"><a href="#edu">EDUCATION</a> </li>
+                    <li class="proj"><a href="#proj">PROJECTS</a> </li>
+                    <li class="cont"><a href="#cont">CONTACT</a> </li>
+                </ul> 
+            </div>
+        </nav>
+        <section id="intro">
+            <div id="row">
+                <div class="intro_box"> 
+                    <div class="image_pos">
+                        <img src="assets/image_sreenidhi.png" class="pic_size" alt="Sreenidhi's Picture"> 
+                    </div>
+                    <h2 class="name_val">Sreenidhi Vijayaraghavan</h2>
+                    <p class="intro_text">
+                        Hello! My name is Sreenidhi and I major in Computer Science at UIUC. Welcome to my website which showcases some of my projects and experience! 👩‍💻
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+        <section id="about">
+            <div id="row">
+                <h1>About</h1>
+                <div class="multi_column_container"> 
+                    <div class="card_column">
+                        <div class="card_image">&#128161;</div>
+                        <h3>Personal Projects</h3>
+                        <p class="first_text">
+                            I spend my free time during breaks advancing my coding skills through individual and team projects.
+                        </p>
+                        <button id="project_open">Learn More</button>
+                    </div>
+        
+                    <div class="card_column">
+                        <div class="card_image">&#128187;</div>
+                        <h3>Work Experience</h3>
+                        <p class="second_text">
+                            Thus far, I have pursued 3 software engineering internships at tech companies in the United States.
+                        </p>
+                        <button id="experience_open">Learn More</button>
+                    </div>
+        
+                    <div class="card_column">
+                        <div class="card_image">&#128202;</div>
+                        <h3>Research</h3>
+                        <p class="third_text">
+                            I have been involved with CS research at UIUC since my freshman year and was a part of two research groups. 
+                        </p>
+                        <button id="research_open">Learn More</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal-info" id="modal_info_projects">
+                <div class="modal_popup">
+                    <h3>Personal Projects</h3>
+                    <p class="first_text">
+                        I have made multiple android mobile apps and SQL-backed web applications.
+                    </p>
+                    <button id="projects_close">&#x2715</button>
+                </div>
+            </div>
+    
+            <div class="modal-info" id="modal_info_work">
+                <div class="modal_popup">
+                    <h3>Work Experience</h3>
+                    <p class="first_text">
+                        I have interned at Nokia (Summer 2020), Jump (Summer 2021) and TikTok/ByteDance (Summer 2022).
+                    </p>
+                    <button id="work_close">&#x2715</button>
+                </div>
+            </div>
+    
+            <div class="modal-info" id="modal_info_research">
+                <div class="modal_popup">
+                    <h3>Research</h3>
+                    <p class="first_text">
+                        I worked under Professor Suma Bhat in 2020 on an NLP task for sentiment analysis, under Professor Adam Bates as a part of the STS Lab and at HCESC at UIUC.
+                    </p>
+                    <button id="research_close">&#x2715</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="edu">
+            <div id="row">
+                <h1 class="edu_title">Education: UIUC</h1>
+                <video src="./assets/uiuc.mov" autoplay loop playsinline muted class="edu_video"></video>
+            </div>
+        </section>
+
+        <section id="proj">
+                <div class="carousel-header">
+                    <h1 class="top_al">Check out some of my photos below!</h1>
+                </div>
+                <div class="image_carousel">
+                    <div class="slide_pics">
+                        <section>
+                            <img src="./assets/image_1.png" alt="image_1" class="slide_img">
+                        </section>
+                        <section>
+                            <img src="./assets/image_2.png" alt="image_2" class="slide_img">
+                        </section>
+                        <section>
+                            <img src="./assets/image_3.png" alt="image_3" class="slide_img">
+                        </section>
+                        <section>
+                            <img src="./assets/image_4.png" alt="image_4" class="slide_img">
+                        </section>
+                    </div>
+                </div>
+                <button class="img_carousel last" dbutton="last">&#8592;</button>
+                <button class="img_carousel next" dbutton="next">&#8594;</button>
+        </section>
+
+        <section id="cont">
+            <div id="row">
+                <h1 class="contact_header">Contact Me</h1>
+                <div class='col'>
+                    <a href="mailto:sv23@illinois.edu">
+                        <h1><i class="fa-solid fa-envelope"></i></h1>
+                    </a>
+                </div>
+
+                <div class='col'>
+                    <a href="https://www.linkedin.com/in/sreenidhivijay/">
+                        <h1><i class="fa-brands fa-linkedin"></i></h1>
+                    </a>
+                </div>
+
+                <div class='col'>
+                    <a href="https://github.com/sreenidhi2002">
+                        <h1><i class="fa-brands fa-github"></i></h1>
+                    </a>
+                </div>
+
+                <div class='col'>
+                    <a href="https://www.facebook.com/sreenidhi.vijayaraghavan.1/">
+                        <h1><i class="fa-brands fa-facebook"></i></h1>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <ul class="cr">
+                <li>© Sreenidhi Vijayaraghavan </li>
+            </ul>
+        </footer>
+
+    </body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=tioN7eYXDR0
+https://www.youtube.com/watch?v=RsPWEmfOQdU
+https://www.youtube.com/watch?v=gJLafcSL4dY
+https://gitlab.com/uiuc-web-programming/responsive-demo
+https://www.youtube.com/watch?v=9HcxHDS2w1s
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+https://getcssscan.com/css-box-shadow-examples
+https://www.youtube.com/watch?v=qXRYMdvq_Dc
+https://www.youtube.com/watch?v=XH5OW46yO8I
+https://www.youtube.com/watch?v=mVYAJ0VQI6k
+https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01
+https://www.geeksforgeeks.org/how-to-specify-a-fixed-background-image-in-css/
+https://css-tricks.com/full-page-background-video-styles/ 
+https://fontawesome.com/search?o=r&f=classic%2Cbrands -->
